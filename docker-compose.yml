@@ -38,6 +38,24 @@ services:
     depends_on:
       - odoo
 
+  prestashop:
+    image: prestashop/prestashop:1.6
+    depends_on:
+      - mysql
+    environment:
+      - DB_SERVER=mysql
+      - PS_FOLDER_ADMIN=backoffice
+      - PS_FOLDER_INSTALL=setup
+      - PS_INSTALL_AUTO=1
+
+  mysql:
+    image: mysql:5.6
+    volumes:
+      - "data-mysql:/var/lib/mysql"
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+
 volumes:
   data-odoo:
   data-db:
+  data-mysql:

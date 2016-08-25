@@ -29,3 +29,7 @@ services:
   nginx:
     ports:
       - 80:80
+
+  prestashop:
+    ports:
+      - "8080:80"
