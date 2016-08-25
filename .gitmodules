@@ -1,0 +1,21 @@
+[submodule "odoo/src"]
+	path = odoo/src
+	url = git@github.com:odoo/odoo.git
+[submodule "odoo/external-src/connector-prestashop"]
+	path = odoo/external-src/connector-prestashop
+	url = git@github.com:OCA/connector-prestashop.git
+[submodule "odoo/external-src/connector-ecommerce"]
+	path = odoo/external-src/connector-ecommerce
+	url = git@github.com:OCA/connector-ecommerce.git
+[submodule "odoo/external-src/connector"]
+	path = odoo/external-src/connector
+	url = git@github.com:OCA/connector.git
+[submodule "odoo/external-src/bank-payment"]
+	path = odoo/external-src/bank-payment
+	url = git@github.com:OCA/bank-payment.git
+[submodule "odoo/external-src/product-attribute"]
+	path = odoo/external-src/product-attribute
+	url = git@github.com:OCA/product-attribute.git
+[submodule "odoo/external-src/sale-workflow"]
+	path = odoo/external-src/sale-workflow
+	url = git@github.com:OCA/sale-workflow.git

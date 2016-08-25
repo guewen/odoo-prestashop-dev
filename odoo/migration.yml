@@ -1,0 +1,9 @@
+migration:
+  versions:
+    - version: 9.0.0
+      operations:
+        post:
+          - anthem songs.install.post::main
+      addons:
+        upgrade:
+          - account

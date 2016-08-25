@@ -1,0 +1,7 @@
+**/.git/**/*
+**/.git
+**/.gitignore
+**/LICENSE
+**/VERSION
+**/*.pyc
+**/README.md
