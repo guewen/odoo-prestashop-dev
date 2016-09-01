@@ -36,5 +36,13 @@ The PrestaShop docker image is: https://github.com/PrestaShop/docker
 
 * address: http://localhost:8080
 * admin address: http://localhost:8080/backoffice
+* API address: http://[ip-address]/api where `[ip-address]` is the address you
+  are redirected to when you go to http://localhost:8080 (does not work on
+  localhost:8080 unfortunately)
 * user: `demo@prestashop.com`
 * password: `prestashop_demo`
+
+Once logged in the backoffice, you still have to create a webservice key, heads
+on: `Advanced Parameters > Webservice` and enable `Enable PrestaShop's
+webservice`. Then, on the same page, create a new Webservice key (add all the
+accesses).
