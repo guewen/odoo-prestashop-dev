@@ -1,0 +1,20 @@
+# file used with gitaggregate: https://github.com/acsone/git-aggregator
+# rebuild a branch with: gitaggregate -c pending-merges.yaml -d "external-src/branch-name"
+./external-src/product-attribute:
+  remotes:
+    oca: git@github.com:OCA/product-attribute.git
+    camptocamp: git@github.com:camptocamp/product-attribute.git
+  merges:
+    - oca 9.0
+    # [9.0][WIP] Migrated product multi image
+    - oca refs/pull/161/head
+  target: camptocamp prestashop-pending-merge
+./external-src/product-variant:
+  remotes:
+    oca: git@github.com:OCA/product-variant.git
+    camptocamp: git@github.com:camptocamp/product-variant.git
+  merges:
+    - oca 9.0
+    # Migrate product_variant_supplierinfo to 9.0
+    - oca refs/pull/35/head
+  target: camptocamp prestashop-pending-merge

@@ -15,7 +15,10 @@
 	url = git@github.com:OCA/bank-payment.git
 [submodule "odoo/external-src/product-attribute"]
 	path = odoo/external-src/product-attribute
-	url = git@github.com:OCA/product-attribute.git
+	url = git@github.com:camptocamp/product-attribute.git
 [submodule "odoo/external-src/sale-workflow"]
 	path = odoo/external-src/sale-workflow
 	url = git@github.com:OCA/sale-workflow.git
+[submodule "odoo/external-src/product-variant"]
+	path = odoo/external-src/product-variant
+	url = git@github.com:camptocamp/product-variant.git
