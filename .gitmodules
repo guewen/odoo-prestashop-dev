@@ -22,3 +22,6 @@
 [submodule "odoo/external-src/product-variant"]
 	path = odoo/external-src/product-variant
 	url = git@github.com:camptocamp/product-variant.git
+[submodule "odoo/external-src/server-tools"]
+	path = odoo/external-src/server-tools
+	url = git@github.com:OCA/server-tools.git

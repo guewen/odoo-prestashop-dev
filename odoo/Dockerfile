@@ -20,7 +20,8 @@ ENV ADDONS_PATH="/opt/odoo/src/addons, \
   /opt/odoo/external-src/connector-prestashop, \
   /opt/odoo/external-src/product-attribute, \
   /opt/odoo/external-src/product-variant, \
-  /opt/odoo/external-src/sale-workflow" \
+  /opt/odoo/external-src/sale-workflow, \
+  /opt/odoo/external-src/server-tools" \
   LIMIT_TIME_CPU=86400 \
   LIMIT_TIME_REAL=86400 \
   LIMIT_MEMORY_SOFT=1342177280 \
