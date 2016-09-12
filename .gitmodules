@@ -3,7 +3,7 @@
 	url = git@github.com:odoo/odoo.git
 [submodule "odoo/external-src/connector-prestashop"]
 	path = odoo/external-src/connector-prestashop
-	url = git@github.com:OCA/connector-prestashop.git
+	url = git@github.com:guewen/connector-prestashop.git
 [submodule "odoo/external-src/connector-ecommerce"]
 	path = odoo/external-src/connector-ecommerce
 	url = git@github.com:OCA/connector-ecommerce.git

@@ -47,6 +47,7 @@ services:
       - PS_FOLDER_ADMIN=backoffice
       - PS_FOLDER_INSTALL=setup
       - PS_INSTALL_AUTO=1
+      - PS_HANDLE_DYNAMIC_DOMAIN=1
 
   mysql:
     image: mysql:5.6

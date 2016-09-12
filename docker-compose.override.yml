@@ -33,3 +33,5 @@ services:
   prestashop:
     ports:
       - "8080:80"
+    environment:
+      - PS_MODE_DEV=1

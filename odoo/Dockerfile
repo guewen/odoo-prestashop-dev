@@ -9,9 +9,17 @@ MAINTAINER Camptocamp
 #         && apt-get clean \
 #         && rm -rf /var/lib/apt/lists/*
 
+ RUN set -x; \
+         apt-get update \
+         && apt-get install -y --no-install-recommends \
+         git \
+         && apt-get clean \
+         && rm -rf /var/lib/apt/lists/*
+
 # Install additional python packages if needed
 COPY ./requirements.txt ./
-RUN pip install -r requirements.txt
+# install in / to ensure we do not install '-e' packages in a volume
+RUN cd / && pip install -r /opt/odoo/requirements.txt
 
 ENV ADDONS_PATH="/opt/odoo/src/addons, \
   /opt/odoo/external-src/bank-payment, \
