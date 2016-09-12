@@ -1,3 +1,4 @@
 html2text
 -e git://github.com/guewen/prestapyt.git@use-requests#egg=prestapyt
 unidecode
+vcrpy
