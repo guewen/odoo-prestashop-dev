@@ -1,4 +1,6 @@
 html2text
 -e git://github.com/guewen/prestapyt.git@use-requests#egg=prestapyt
 unidecode
+# test dependencies for connector_prestashop
 vcrpy
+freezegun
