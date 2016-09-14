@@ -46,3 +46,10 @@ Once logged in the backoffice, you still have to create a webservice key, heads
 on: `Advanced Parameters > Webservice` and enable `Enable PrestaShop's
 webservice`. Then, on the same page, create a new Webservice key (add all the
 accesses).
+
+When the PrestaShop container is restarted (often after a reboot), its IP
+address changes. When it happens, the shop url needs to be updated to the new IP with:
+
+```bash
+$ ./fix_mysql_address.sh
+```
