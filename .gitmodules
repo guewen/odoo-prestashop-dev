@@ -1,6 +1,6 @@
 [submodule "odoo/src"]
 	path = odoo/src
-	url = git@github.com:odoo/odoo.git
+	url = git@github.com:OCA/OCB.git
 [submodule "odoo/external-src/connector-prestashop"]
 	path = odoo/external-src/connector-prestashop
 	url = git@github.com:guewen/connector-prestashop.git
