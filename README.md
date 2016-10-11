@@ -17,7 +17,14 @@ $ cd odoo-prestashop-dev
 $ git submodule init
 $ git submodule update
 $ docker-compose up -d
+
+If you want to run odoo in dev mode you have to:
+
+$ docker-compose stop odoo
+$ docker-compose run --rm odoo odoo.py --load=web,connector
 ```
+
+**NOTE:** passing `--load=web,connector` **IS MANDATORY** otherwise your jobs queue will note be processed!
 
 ## Accesses
 
