@@ -7,3 +7,4 @@ migration:
       addons:
         upgrade:
           - account
+          - connector_prestashop
