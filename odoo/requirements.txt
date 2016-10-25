@@ -1,5 +1,5 @@
 html2text
--e git://github.com/guewen/prestapyt.git@use-requests#egg=prestapyt
+prestapyt >= 0.7.0
 unidecode
 # test dependencies for connector_prestashop
 vcrpy
